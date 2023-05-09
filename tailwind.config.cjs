@@ -6,6 +6,12 @@ module.exports = {
             // Adds a new breakpoint in addition to the default breakpoints
             screens: {
                 container: '1100px'
+            },
+            colors: {
+                'raisin-black': '#272727',
+                'baby-powder': '#FBFEF9',
+                jasper: '#BE5A38',
+                cerulean: '#3A7CA5'
             }
         },
         fontFamily: {
