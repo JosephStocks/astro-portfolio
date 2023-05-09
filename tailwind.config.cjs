@@ -11,7 +11,8 @@ module.exports = {
                 'raisin-black': '#272727',
                 'baby-powder': '#FBFEF9',
                 jasper: '#BE5A38',
-                cerulean: '#3A7CA5'
+                cerulean: '#3A7CA5',
+                'vista-blue': '#7796CB'
             }
         },
         fontFamily: {
