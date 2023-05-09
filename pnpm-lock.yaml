@@ -7,6 +7,15 @@ dependencies:
   '@fontsource/fredericka-the-great':
     specifier: ^4.5.9
     version: 4.5.9
+  '@fontsource/inter':
+    specifier: ^4.5.15
+    version: 4.5.15
+  '@fontsource/inter-tight':
+    specifier: ^4.5.2
+    version: 4.5.2
+  '@fontsource/outfit':
+    specifier: ^4.5.11
+    version: 4.5.11
   astro:
     specifier: ^2.3.4
     version: 2.3.4
@@ -577,6 +586,18 @@ packages:
 
   /@fontsource/fredericka-the-great@4.5.9:
     resolution: {integrity: sha512-0AIWfYa+6joGn0+zXo7K8fMpok9Atg/S4PGDQdnrcwgns/m4MGldcOL6XJcDLDX+AFBg12Jt4VDtkxDDO6ZdLA==}
+    dev: false
+
+  /@fontsource/inter-tight@4.5.2:
+    resolution: {integrity: sha512-AsPr+i64Rc9ZV0loMliOX3W+fMbOp8qfcDeYde/WLue8BRlOBisnUYpWuBvXeOwVC7A45O94rgoyvfkdclZT0Q==}
+    dev: false
+
+  /@fontsource/inter@4.5.15:
+    resolution: {integrity: sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==}
+    dev: false
+
+  /@fontsource/outfit@4.5.11:
+    resolution: {integrity: sha512-msPqJLLmSyWj/YtJknO75RjoTHIep6mDjnDO5IrZUJea31bO4s1QCuepG54LsmMXLKs+gp603nPM8/SUv5ZgSg==}
     dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
