@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/svelte": "^2.1.1",
     "@astrojs/tailwind": "^3.1.2",
     "@fontsource/fredericka-the-great": "^4.5.9",
     "@fontsource/inter": "^4.5.15",
@@ -19,6 +20,7 @@
     "prettier": "^2.8.8",
     "prettier-plugin-astro": "^0.8.0",
     "prettier-plugin-tailwindcss": "^0.2.8",
+    "svelte": "^3.54.0",
     "tailwindcss": "^3.0.24"
   }
 }
