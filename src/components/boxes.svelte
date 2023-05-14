@@ -1,5 +1,5 @@
 <script>
-    export const ssr = false
+    // export const ssr = false
     let numBlocks = Math.floor(Math.random() * 10) + 1
     let guess = ''
     let message = ''
@@ -21,21 +21,17 @@
     }
 </script>
 
-<!-- grid grid-rows-[repeat(2,_minmax(100px,_1fr))] grid-cols-[repeat(5,_minmax(100px,_1fr))] gap-4 w-full h-1/2 mx-auto -->
-
 <main class="container mx-auto h-screen max-w-screen-container px-4 flex flex-col w-full">
-    <div class="flex justify-center flex-wrap h-1/2 content-center">
+    <div class="flex justify-center flex-wrap h-2/3 content-center">
         {#each Array(numBlocks) as _, i (i)}
-            <div class="bg-red-700 w-[calc(20%_-_25px)] aspect-square m-2" />
+            <div class="bg-red-700 w-[calc(calc(100%-80px)/5)] aspect-square m-2" />
         {/each}
     </div>
-
-    <div class="h-1/2">
-        <div class="mx-auto w-fit">
+    <div class="h-1/3 flex flex-col">
+        <div class="flex flex-row mt-10 mx-auto">
             <input class="text-black p-1 px-2" type="number" bind:value={guess} min="1" max="10" />
-            <button on:click={resetGame}>Reset</button>
+            <button class="ml-4" on:click={resetGame}>Reset</button>
         </div>
-
-        <div class="mx-auto w-fit">{message}</div>
+        <div class="mx-auto mt-2">{message}</div>
     </div>
 </main>
